@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_baseline_filter_list_24"
+        android:title="Filter"
+        app:showAsAction="always" >
+        <menu>
+            <item
+                android:id="@+id/action_all"
+                android:title="All"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_action"
+                android:title="Action"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_completed"
+                android:title="Completed"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_clear"
+        android:title="Clear Completed"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        app:showAsAction="never"/>
+
+</menu>
